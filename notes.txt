@@ -1,0 +1,4 @@
+Workflow process
+1. if you have to do the UI itself, create the mock template before stating with angular
+2. break to modules, in this case main 3 modules: Login, Todo, Common.
+3.
