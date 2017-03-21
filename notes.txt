@@ -1,4 +1,5 @@
 Workflow process
 1. if you have to do the UI itself, create the mock template before stating with angular
 2. break to modules, in this case main 3 modules: Login, Todo, Common.
-3.
+3. breaking UI components into smaller components beside reuse, should take into consideration performance. moving parts make angular re-render the UI, so if the moving parts break into smaller pieces, DOM manipulation will be minimal.
+4.

@@ -1,0 +1,22 @@
+<!-- Item -->
+<li [class.completed]="item.completed">
+
+  <div class="view">
+    <input class="toggle"
+           [checked]="item.completed"
+           (change)="item.completed = $event.target.checked"
+           type="checkbox">
+
+    <label>
+      <span class="note">{{ item.created | timeago }}</span>
+      <span class="title">{{ item.title | up:' ;('}}</span>
+    </label>
+
+    <button class="destroy"></button>
+
+  </div>
+
+  <input class="edit">
+
+</li>
+<!-- /Item-->
